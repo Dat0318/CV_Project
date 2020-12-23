@@ -14463,7 +14463,7 @@
       }
     });
   });
-  bar.animate(1);
+  
   $('.art-input').keyup(function () {
     if ($(this).val()) {
       $(this).addClass('art-active');
