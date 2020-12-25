@@ -12426,7 +12426,7 @@ window.addComment = (function (f) {
   }),
   (function (t, e) {
     'function' == typeof define && define.amd
-      ? define('isotope-layoutcontent/js/item', ['outlayer/outlayer'], e)
+      ? define('isotope-layout/content/js/item', ['outlayer/outlayer'], e)
       : 'object' == typeof module && module.exports
       ? (module.exports = e(require('outlayer')))
       : ((t.Isotope = t.Isotope || {}), (t.Isotope.Item = e(t.Outlayer)));
@@ -12463,7 +12463,7 @@ window.addComment = (function (f) {
   }),
   (function (t, e) {
     'function' == typeof define && define.amd
-      ? define('isotope-layoutcontent/js/layout-mode', [
+      ? define('isotope-layout/content/js/layout-mode', [
           'get-size/get-size',
           'outlayer/outlayer',
         ], e)
@@ -12676,7 +12676,7 @@ window.addComment = (function (f) {
   }),
   (function (t, e) {
     'function' == typeof define && define.amd
-      ? define('isotope-layoutcontent/js/layout-modes/masonry', [
+      ? define('isotope-layout/content/js/layout-modes/masonry', [
           '../layout-mode',
           'masonry-layout/masonry',
         ], e)
@@ -12710,7 +12710,7 @@ window.addComment = (function (f) {
   }),
   (function (t, e) {
     'function' == typeof define && define.amd
-      ? define('isotope-layoutcontent/js/layout-modes/fit-rows', [
+      ? define('isotope-layout/content/js/layout-modes/fit-rows', [
           '../layout-mode',
         ], e)
       : 'object' == typeof exports
@@ -12747,7 +12747,7 @@ window.addComment = (function (f) {
   }),
   (function (t, e) {
     'function' == typeof define && define.amd
-      ? define('isotope-layoutcontent/js/layout-modes/vertical', [
+      ? define('isotope-layout/content/js/layout-modes/vertical', [
           '../layout-mode',
         ], e)
       : 'object' == typeof module && module.exports
@@ -12782,11 +12782,11 @@ window.addComment = (function (f) {
           'get-size/get-size',
           'desandro-matches-selector/matches-selector',
           'fizzy-ui-utils/utils',
-          'isotope-layoutcontent/js/item',
-          'isotope-layoutcontent/js/layout-mode',
-          'isotope-layoutcontent/js/layout-modes/masonry',
-          'isotope-layoutcontent/js/layout-modes/fit-rows',
-          'isotope-layoutcontent/js/layout-modes/vertical',
+          'isotope-layout/content/js/item',
+          'isotope-layout/content/js/layout-mode',
+          'isotope-layout/content/js/layout-modes/masonry',
+          'isotope-layout/content/js/layout-modes/fit-rows',
+          'isotope-layout/content/js/layout-modes/vertical',
         ], function (i, o, n, s, r, a) {
           return e(t, i, o, n, s, r, a);
         })
@@ -12797,11 +12797,11 @@ window.addComment = (function (f) {
           require('get-size'),
           require('desandro-matches-selector'),
           require('fizzy-ui-utils'),
-          require('isotope-layoutcontent/js/item'),
-          require('isotope-layoutcontent/js/layout-mode'),
-          require('isotope-layoutcontent/js/layout-modes/masonry'),
-          require('isotope-layoutcontent/js/layout-modes/fit-rows'),
-          require('isotope-layoutcontent/js/layout-modes/vertical')
+          require('isotope-layout/content/js/item'),
+          require('isotope-layout/content/js/layout-mode'),
+          require('isotope-layout/content/js/layout-modes/masonry'),
+          require('isotope-layout/content/js/layout-modes/fit-rows'),
+          require('isotope-layout/content/js/layout-modes/vertical')
         ))
       : (t.Isotope = e(
           t,
