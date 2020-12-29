@@ -27673,10 +27673,10 @@ window.addComment = (function (f) {
           for (var n = arguments.length, i = new Array(n), o = 0; o < n; o++)
             i[o] = arguments[o];
           return (
-            ((e = t.call.apply(
+            (e = t.call.apply(
               t,
               [this].concat(i)
-            )).config = elementorFrontendConfig),
+            )),
             e
           );
         }
