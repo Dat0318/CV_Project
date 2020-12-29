@@ -51,6 +51,7 @@ const readDir = (dir) => {
       let property = sourceSplit.pop();
       if (property !== undefined) {
         json[property] = tempSource.toString();
+        tempSource = [];
       }
       writeImages();
 
